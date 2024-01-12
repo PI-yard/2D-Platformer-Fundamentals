@@ -1,0 +1,91 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1705079687
+3.png::CompressedTexture2D::3912974273136738971::1677758532::1705051270::1::::<><>::
+icon.svg::CompressedTexture2D::996179554159443688::1704995040::1704995076::1::::<><>::
+::res://character/::1705028879
+3.png::CompressedTexture2D::5607985996205322546::1705028876::1705028879::1::::<><>::
+Dead__000.png::CompressedTexture2D::1536280576371664364::1419215472::1705028835::1::::<><>::
+Dead__001.png::CompressedTexture2D::2854218915867644877::1419215472::1705028835::1::::<><>::
+Dead__002.png::CompressedTexture2D::8198527203941726979::1419215472::1705028835::1::::<><>::
+Dead__003.png::CompressedTexture2D::1091930411719773746::1419215474::1705028835::1::::<><>::
+Dead__004.png::CompressedTexture2D::7138819027024325718::1419215474::1705028835::1::::<><>::
+Dead__005.png::CompressedTexture2D::2164458540993943330::1419215474::1705028835::1::::<><>::
+Dead__006.png::CompressedTexture2D::8469505039499167044::1419215474::1705028835::1::::<><>::
+Dead__007.png::CompressedTexture2D::5247403269311887739::1419215474::1705028835::1::::<><>::
+Dead__008.png::CompressedTexture2D::433732417333986101::1419215474::1705028835::1::::<><>::
+Dead__009.png::CompressedTexture2D::215133019962357508::1419215474::1705028835::1::::<><>::
+Idle__000.png::CompressedTexture2D::5933287854896721384::1419215168::1705028835::1::::<><>::
+Idle__001.png::CompressedTexture2D::3688928352624460131::1419215168::1705028835::1::::<><>::
+Idle__002.png::CompressedTexture2D::7434886842543281584::1419215168::1705028835::1::::<><>::
+Idle__003.png::CompressedTexture2D::8794854350216629587::1419215168::1705028835::1::::<><>::
+Idle__004.png::CompressedTexture2D::1334954793252187404::1419215168::1705028836::1::::<><>::
+Idle__005.png::CompressedTexture2D::6825596791219610273::1419215168::1705028836::1::::<><>::
+Idle__006.png::CompressedTexture2D::2407466744422351928::1419215168::1705028836::1::::<><>::
+Idle__007.png::CompressedTexture2D::8364965260790113620::1419215168::1705028836::1::::<><>::
+Idle__008.png::CompressedTexture2D::6575579821590261256::1419215168::1705028836::1::::<><>::
+Idle__009.png::CompressedTexture2D::3530886392689689789::1419215168::1705028836::1::::<><>::
+Jump__000.png::CompressedTexture2D::5767716760225195623::1419215374::1705028836::1::::<><>::
+Jump__001.png::CompressedTexture2D::5054504892796347538::1419215376::1705028836::1::::<><>::
+Jump__002.png::CompressedTexture2D::312613333772505721::1419215376::1705028836::1::::<><>::
+Jump__003.png::CompressedTexture2D::4584155155679958031::1419215376::1705028836::1::::<><>::
+Jump__004.png::CompressedTexture2D::5466472715682743035::1419215376::1705028836::1::::<><>::
+Jump__005.png::CompressedTexture2D::2843392203328164716::1419215376::1705028833::1::::<><>::
+Jump__006.png::CompressedTexture2D::5976884764299609954::1419215376::1705028833::1::::<><>::
+Jump__007.png::CompressedTexture2D::3693055992998534988::1419215376::1705028833::1::::<><>::
+Jump__008.png::CompressedTexture2D::8738804154081571566::1419215376::1705028833::1::::<><>::
+Jump__009.png::CompressedTexture2D::480473596267764907::1419215376::1705028833::1::::<><>::
+Run__000.png::CompressedTexture2D::2531951605777601479::1419215354::1705028833::1::::<><>::
+Run__001.png::CompressedTexture2D::6430561547507439519::1419215354::1705028833::1::::<><>::
+Run__002.png::CompressedTexture2D::5881215278119025105::1419215354::1705028833::1::::<><>::
+Run__003.png::CompressedTexture2D::4194788843500756796::1419215354::1705028833::1::::<><>::
+Run__004.png::CompressedTexture2D::4603097997161870067::1419215354::1705028834::1::::<><>::
+Run__005.png::CompressedTexture2D::8949446886154042274::1419215354::1705028834::1::::<><>::
+Run__006.png::CompressedTexture2D::2634290694427943861::1419215354::1705028834::1::::<><>::
+Run__007.png::CompressedTexture2D::3409228820193959391::1419215354::1705028834::1::::<><>::
+Run__008.png::CompressedTexture2D::2936225739068949464::1419215354::1705028834::1::::<><>::
+Run__009.png::CompressedTexture2D::8773815253056136680::1419215354::1705028834::1::::<><>::
+Slide__000.png::CompressedTexture2D::856529137145691979::1419256700::1705028834::1::::<><>::
+Slide__001.png::CompressedTexture2D::2127810765162260360::1419256700::1705028834::1::::<><>::
+Slide__002.png::CompressedTexture2D::6038282342193888067::1419256700::1705028834::1::::<><>::
+Slide__003.png::CompressedTexture2D::3194855727010127653::1419256700::1705028834::1::::<><>::
+Slide__004.png::CompressedTexture2D::7702950984955158741::1419256700::1705028834::1::::<><>::
+Slide__005.png::CompressedTexture2D::1572917073173064477::1419256700::1705028834::1::::<><>::
+Slide__006.png::CompressedTexture2D::5753350179605185028::1419256700::1705028834::1::::<><>::
+Slide__007.png::CompressedTexture2D::4951131918953161178::1419256700::1705028834::1::::<><>::
+Slide__008.png::CompressedTexture2D::4403737362761582525::1419256700::1705028834::1::::<><>::
+Slide__009.png::CompressedTexture2D::1924320028098018371::1419256700::1705028834::1::::<><>::
+::res://Clouds 7/::1704995362
+1.png::CompressedTexture2D::2676596366519463790::1665778343::1704995362::1::::<><>::
+2.png::CompressedTexture2D::8672062742130298710::1665778354::1704995362::1::::<><>::
+3.png::CompressedTexture2D::430228266193698703::1665778364::1704995362::1::::<><>::
+4.png::CompressedTexture2D::1066886257100038180::1665778374::1704995362::1::::<><>::
+::res://EXPORT for LINUX/::1705079630
+::res://Monster_Creatures_Fantasy(Version 1.3)/::1596310528
+::res://Monster_Creatures_Fantasy(Version 1.3)/Flying eye/::1705073174
+Attack3.png::CompressedTexture2D::1526163011155984020::1596311627::1705073174::1::::<><>::
+projectile_sprite.png::CompressedTexture2D::5152798302767913050::1596739520::1705073173::1::::<><>::
+::res://Monster_Creatures_Fantasy(Version 1.3)/Goblin/::1705073174
+Attack3.png::CompressedTexture2D::4629410186685560726::1596311195::1705073174::1::::<><>::
+Bomb_sprite.png::CompressedTexture2D::8722385995325650584::1596739340::1705073174::1::::<><>::
+::res://Monster_Creatures_Fantasy(Version 1.3)/Mushroom/::1705073174
+Attack3.png::CompressedTexture2D::7500968726641360329::1596311303::1705073174::1::::<><>::
+Projectile_sprite.png::CompressedTexture2D::4671135231424130651::1596739456::1705073174::1::::<><>::
+::res://Monster_Creatures_Fantasy(Version 1.3)/Skeleton/::1705073174
+Attack3.png::CompressedTexture2D::5516352197357566101::1596311039::1705073174::1::::<><>::
+Sword_sprite.png::CompressedTexture2D::1684479421283400637::1596739266::1705073174::1::::<><>::
+::res://nature_4/::1705027955
+1.png::CompressedTexture2D::6833452514807662228::1677758322::1705027954::1::::<><>::
+2.png::CompressedTexture2D::5262072237486128113::1677758332::1705027954::1::::<><>::
+3.png::CompressedTexture2D::6780684822680605705::1677758342::1705027954::1::::<><>::
+4.png::CompressedTexture2D::6260364476808285175::1677758352::1705027954::1::::<><>::
+orig.png::CompressedTexture2D::2524163355435793583::1677758376::1705027954::1::::<><>::
+origbig.png::CompressedTexture2D::2953761239289805526::1677758392::1705027955::1::::<><>::
+::res://Scenes/::1705076340
+enemy.tscn::PackedScene::3940823289342157720::1705075748::0::1::::<><>::res://Scripts/enemy.gd<>uid://v0jxgggweb7q::::res://Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png
+player.tscn::PackedScene::1791811722638407586::1705075748::0::1::::<><>::res://Scripts/CharacterBody2D.gd<>uid://bccq4xhl6xfsh::::res://character/Run__000.png<>uid://cxvan6abp38bj::::res://character/Run__001.png<>uid://cp150ymshxmm8::::res://character/Run__002.png<>uid://b008tawd3lktw::::res://character/Run__003.png<>uid://b6t1l7lbye0tj::::res://character/Run__004.png<>uid://d0rgc2t3e6j1s::::res://character/Run__005.png<>uid://bdscnaua85fxt::::res://character/Run__006.png<>uid://botprawtdkorf::::res://character/Run__007.png<>uid://bh3lhdr7ylqs3::::res://character/Run__008.png<>uid://dxadpqm8do265::::res://character/Run__009.png
+world.tscn::PackedScene::5474123670186239357::1705076340::0::1::::<><>::uid://beetfew4v3p0q::::res://Clouds 7/1.png<>uid://pg2pwwrpb8w3::::res://Clouds 7/4.png<>res://Scripts/ParallaxBackground.gd<>uid://gen2c78u85bn::::res://Clouds 7/3.png<>uid://bv0qd5pxhn5bj::::res://3.png<>uid://0r743e2m0oac::::res://Scenes/player.tscn<>uid://bwe71wda3nfme::::res://Scenes/enemy.tscn<>res://Scripts/Obsticle.gd
+::res://Scripts/::1705075743
+CharacterBody2D.gd::GDScript::-1::1705058227::0::1::::<>CharacterBody2D<>::
+enemy.gd::GDScript::-1::1705075743::0::1::::<>StaticBody2D<>::
+Obsticle.gd::GDScript::-1::1705075643::0::1::::<>Node<>::
+ParallaxBackground.gd::GDScript::-1::1705027467::0::1::::<>ParallaxBackground<>::

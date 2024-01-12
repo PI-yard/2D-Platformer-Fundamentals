@@ -1,0 +1,70 @@
+[gd_scene load_steps=14 format=3 uid="uid://0r743e2m0oac"]
+
+[ext_resource type="Script" path="res://Scripts/CharacterBody2D.gd" id="1_sejne"]
+[ext_resource type="Texture2D" uid="uid://bccq4xhl6xfsh" path="res://character/Run__000.png" id="2_215xq"]
+[ext_resource type="Texture2D" uid="uid://cxvan6abp38bj" path="res://character/Run__001.png" id="3_hvmcs"]
+[ext_resource type="Texture2D" uid="uid://cp150ymshxmm8" path="res://character/Run__002.png" id="4_sehv0"]
+[ext_resource type="Texture2D" uid="uid://b008tawd3lktw" path="res://character/Run__003.png" id="5_wdhku"]
+[ext_resource type="Texture2D" uid="uid://b6t1l7lbye0tj" path="res://character/Run__004.png" id="6_lvu6y"]
+[ext_resource type="Texture2D" uid="uid://d0rgc2t3e6j1s" path="res://character/Run__005.png" id="7_botcj"]
+[ext_resource type="Texture2D" uid="uid://bdscnaua85fxt" path="res://character/Run__006.png" id="8_57tkl"]
+[ext_resource type="Texture2D" uid="uid://botprawtdkorf" path="res://character/Run__007.png" id="9_i67hj"]
+[ext_resource type="Texture2D" uid="uid://bh3lhdr7ylqs3" path="res://character/Run__008.png" id="10_q0xro"]
+[ext_resource type="Texture2D" uid="uid://dxadpqm8do265" path="res://character/Run__009.png" id="11_ef0gb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hi2ew"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_215xq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hvmcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_sehv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wdhku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lvu6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_botcj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_57tkl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_i67hj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_q0xro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ef0gb")
+}],
+"loop": true,
+"name": &"run",
+"speed": 20.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g5g3r"]
+size = Vector2(95, 115)
+
+[node name="Player" type="CharacterBody2D"]
+position = Vector2(254, 571)
+script = ExtResource("1_sejne")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-191.25, -105.5)
+scale = Vector2(0.261747, 0.239645)
+sprite_frames = SubResource("SpriteFrames_hi2ew")
+animation = &"run"
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-181.75, -106)
+shape = SubResource("RectangleShape2D_g5g3r")
+metadata/_edit_lock_ = true

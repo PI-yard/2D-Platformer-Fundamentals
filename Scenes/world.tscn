@@ -1,0 +1,72 @@
+[gd_scene load_steps=10 format=3 uid="uid://cj8yaty4ictwv"]
+
+[ext_resource type="Texture2D" uid="uid://beetfew4v3p0q" path="res://Clouds 7/1.png" id="1_qytdi"]
+[ext_resource type="Texture2D" uid="uid://pg2pwwrpb8w3" path="res://Clouds 7/4.png" id="2_1qhd0"]
+[ext_resource type="Script" path="res://Scripts/ParallaxBackground.gd" id="2_jgy6f"]
+[ext_resource type="Texture2D" uid="uid://gen2c78u85bn" path="res://Clouds 7/3.png" id="3_ogcnk"]
+[ext_resource type="Texture2D" uid="uid://bv0qd5pxhn5bj" path="res://3.png" id="5_65nmh"]
+[ext_resource type="PackedScene" uid="uid://0r743e2m0oac" path="res://Scenes/player.tscn" id="6_et3a2"]
+[ext_resource type="PackedScene" uid="uid://bwe71wda3nfme" path="res://Scenes/enemy.tscn" id="7_8ty25"]
+[ext_resource type="Script" path="res://Scripts/Obsticle.gd" id="7_pxrwq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j0o68"]
+size = Vector2(575.5, 95)
+
+[node name="World" type="Node"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_qytdi")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+layer = 0
+script = ExtResource("2_jgy6f")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(575.7, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(239, 164)
+texture = ExtResource("2_1qhd0")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.9, 0.9)
+motion_mirroring = Vector2(600, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2(241, 293)
+texture = ExtResource("3_ogcnk")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(14, 14)
+motion_mirroring = Vector2(575.245, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+position = Vector2(240, 548)
+scale = Vector2(1, 1.10802)
+texture = ExtResource("5_65nmh")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(240.25, 673.5)
+shape = SubResource("RectangleShape2D_j0o68")
+
+[node name="Player" parent="." instance=ExtResource("6_et3a2")]
+
+[node name="Obsticle" type="Node" parent="."]
+script = ExtResource("7_pxrwq")
+
+[node name="Timer" type="Timer" parent="Obsticle"]
+wait_time = 5.0
+autostart = true
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("7_8ty25")]
+position = Vector2(410, 496)
+
+[connection signal="timeout" from="Obsticle/Timer" to="Obsticle" method="_on_timer_timeout"]
